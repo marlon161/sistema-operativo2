@@ -39,3 +39,20 @@
     display: block;
 
 }
+img{
+    width: 30px;
+    height: 30px;
+}
+.barra_ventana img{
+    margin: 5px;
+}
+.barra_ventana{
+    background-color: lightblue;
+}
+.Expandir{
+    width: 100%;
+    height: 100%;
+    margin: 0px 0px 0px 33px;
+
+}
+
