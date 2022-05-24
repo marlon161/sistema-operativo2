@@ -1,17 +1,41 @@
-.ventana{
-    width: 1024px;
-    height: 600px;
+.contenedor{
+    width: 100%;
+    height: 100%;
     background-image: url(https://static.canalapps.com/uploads/2020/08/fondos-de-pantalla-canalapps-1024x506.jpg);
     background-size: cover;
     margin: auto;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 
 }
 .barra{
     bottom: 0;
     left: 0;
     top: 0;
-    background-color: blue;
+    background-color: purple;
     width: 30px;
     height: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+
+}
+.ventana{
+  width: 500px;
+  height: 400px;
+  background-color: purple;
+  display: none;
+}
+
+
+.barra div img{
+    width: 30px;
+    height: 30px;
+}
+.ventanaActivar{
+    display: block;
 
 }
